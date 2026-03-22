@@ -22,7 +22,7 @@ const Contact = () => {
             </tr>
             <tr className="crow">
               <td>RJ</td>
-              <td>847-701-5809</td>
+              <td>224-368-6010</td>
             </tr>
             <tr className="crow">
               <td>RJ</td>
