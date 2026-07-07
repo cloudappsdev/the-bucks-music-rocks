@@ -9,9 +9,9 @@ const Shows = () => {
         <div>
           <table className="ctbl">
             <tr className="crow">
-              <td>St. Cletus</td>
-              <td>LaGrange</td>
-              <td>April-27</td>
+              <td>Stadium Club</td>
+              <td>McCook</td>
+              <td>July-28, 2026</td>
             </tr>
           </table>
         </div>

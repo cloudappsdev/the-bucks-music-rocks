@@ -50,9 +50,6 @@ const Home = () => {
         <div>
           <Shows />
         </div>
-        <div>
-          <BandEvents />
-        </div>
       </div>
     </>
   );
