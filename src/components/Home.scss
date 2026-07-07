@@ -18,43 +18,57 @@
 .logo-container {
 
     margin: 0 auto;
+    width: 100%;
+    max-width: 352px;
+
+    .logo {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
     @media screen and (min-width: 360px) {
-        width: 352px;
-        height: 192px;
+        max-width: 352px;
 
         .logo {
-            width: 352px;
-            height: 192px;
+            max-width: 352px;
         }
     }
 
     @media screen and (min-width: 576px) {
-        width: 560px;
-        height: 306px;
+        max-width: 560px;
 
         .logo {
-            width: 560px;
-            height: 306px;
+            max-width: 560px;
         }
     }
 
 
 
     @media screen and (min-width: 768px) {
-        width: 760px;
-        height: 416px;
+        max-width: 760px;
 
         .logo {
-            width: 760px;
-            height: 416px;
-        }        
+            max-width: 760px;
+        }
     }
 
     @media screen and (min-width: 860px) {
-        width: 848px;
-        height: 464px;
+        max-width: 848px;
+
+        .logo {
+            max-width: 848px;
+        }
     }
+}
+
+.home iframe {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 560 / 315;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .linkHeading {

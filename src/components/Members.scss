@@ -9,6 +9,8 @@
 
 table.mtbl {
     width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
     border-collapse: collapse;
 
     .mrow > td:first-child {
