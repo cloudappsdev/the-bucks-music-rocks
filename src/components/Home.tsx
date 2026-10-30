@@ -41,6 +41,23 @@ const Home = () => {
           </a>
         </div>
         <div>
+          <div>
+            <div className="linkHeading">
+              Follow the band on Facebook and Social Media (link - below)
+            </div>
+            <div className="linkHeading">
+              Where we post the Next Shows, see who is coming, and have Live
+              Clips!
+            </div>
+            <a
+              target="_blank"
+              className="linkBoost linkUnderline"
+              href="https://www.facebook.com/TheBucksBand"
+            >
+              Link to Follow The Bucks on Facebook (in new window / full-screen)
+            </a>
+          </div>
+          <div></div>
           <Members />
         </div>
         <div>

@@ -1,84 +1,90 @@
-
 .home {
-    background-color: #242424;
-    color: #CCC;
+  background-color: #242424;
+  color: #ccc;
 
-    .mainHdr {
-        color: #FFF;
-    }
-    
+  .mainHdr {
+    color: #fff;
+  }
 
-    .shFont {
-        color: #00DEFF;
-        font-family: 'Baloo', sans-serif;
-    }
-
+  .shFont {
+    color: #00deff;
+    font-family: "Baloo", sans-serif;
+  }
 }
 
 .logo-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 352px;
 
-    margin: 0 auto;
+  .logo {
     width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media screen and (min-width: 360px) {
     max-width: 352px;
 
     .logo {
-        width: 100%;
-        height: auto;
-        display: block;
+      max-width: 352px;
     }
+  }
 
-    @media screen and (min-width: 360px) {
-        max-width: 352px;
+  @media screen and (min-width: 576px) {
+    max-width: 560px;
 
-        .logo {
-            max-width: 352px;
-        }
+    .logo {
+      max-width: 560px;
     }
+  }
 
-    @media screen and (min-width: 576px) {
-        max-width: 560px;
+  @media screen and (min-width: 768px) {
+    max-width: 760px;
 
-        .logo {
-            max-width: 560px;
-        }
+    .logo {
+      max-width: 760px;
     }
+  }
 
+  @media screen and (min-width: 860px) {
+    max-width: 848px;
 
-
-    @media screen and (min-width: 768px) {
-        max-width: 760px;
-
-        .logo {
-            max-width: 760px;
-        }
+    .logo {
+      max-width: 848px;
     }
-
-    @media screen and (min-width: 860px) {
-        max-width: 848px;
-
-        .logo {
-            max-width: 848px;
-        }
-    }
+  }
 }
 
 .home iframe {
-    width: 100%;
-    max-width: 560px;
-    aspect-ratio: 560 / 315;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 560 / 315;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .linkHeading {
-    font-family: 'Permanent Marker', sans-serif;
-    padding-top: 15px;
-    font-size: 22px;
-    font-weight: 600;
-    color: #F6F1DD;
+  font-family: "Permanent Marker", sans-serif;
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #f6f1dd;
+}
+
+.linkHeading {
+  font-family: "Tahoma", sans-serif;
+  padding-top: 26px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f6f1dd;
 }
 
 .linkBoost {
-    font-size: 18px;
+  font-size: 18px;
+}
+
+.linkUnderline {
+  text-decoration: underline;
 }
